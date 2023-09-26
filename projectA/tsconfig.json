@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "paths": {
+            "projectB": ["./../projectB/src/index.ts"],
+            "projectB/*": ["./../projectB/src/*.ts"]
+        }
+    },
+    "references": [
+        {"path": "./../projectB/tsconfig.json"}
+    ],
+    "include": ["./src/**/*"]
+}

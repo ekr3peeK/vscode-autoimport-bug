@@ -1,0 +1,1 @@
+import {projectBFunction} from 'projectB';
